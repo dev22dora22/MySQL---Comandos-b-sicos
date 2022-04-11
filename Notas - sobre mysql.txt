@@ -1,0 +1,28 @@
+// * CRIAÇÃO DE TABELA - A criação de uma tabela é feita através do comando CREATE TABLE. *//
+
+CREATE TABLE pessoas (
+    id INT NOT NULL PRIMARY KEY AUTOINCREMENT,
+    nome VARCHAR (10) NOT NULL,
+    nascimento DATE
+)
+
+// * INSERIR NOVAS INFORMAÇÕES EM UMA TABELA - A inserção de novas informações de uma tabela é feita através do comando INSERT INTO * ////
+
+INSERT INTO pessoas (nome,nascimento) VALUES ('Isadora', '1999 01 22');
+INSERT INTO pessoas (nome, nascimento) VALUES ('Vitor', '2003 09 30');
+INSERT INTO pessoas (nome, nascimento) VALUES ('Isabelle', '1998 08 16');
+INSERT INTO pessoas (nome, nascimento) VALUES ('Tiago', '2001 03 02');
+
+
+// * PARA REALIZAR ALTERAÇÕES EM UMA TABELA - As alterações de uma tabela podem ser feitas através do comando UPDATE *//
+
+UPDATE pessoas SET nome='Isadora Silva' WHERE id='1'
+
+// *  PARA DELETAR DADOS DE UMA TABELA - A exlcusão de dados de uma tabela pode ser feita através do comando DELETE FROM* *//
+
+DELETE FROM pessoas WHERE id='1';
+
+// *  PARA SELECIONAR E VISUALIZAR DADOS DE UMA TABELA - A visualização de uma tabela é feita através do comando SELECT FROM* *//
+
+SELECT FROM pessoas ORDER BY nome;
+SELECT FROM pesssoas ORDER BY nome DESC;
