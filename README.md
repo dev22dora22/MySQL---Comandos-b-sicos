@@ -1,4 +1,4 @@
-# MySQL-Comandos-Básicos
+# mysql-comandos-básicos
 MySQL - Definição de conceitos e criando as primeiras tabelas.
 
 
