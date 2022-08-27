@@ -13,5 +13,21 @@ Tipos de dados:  DECIMAL(M,D), FLOAT(M,D), CHAR(M) , BOOL / BOOLEAN, VARCHAR(M) 
 
 <h2>Comandos básicos -  MySQL</h2>
 
+CREATE TABLE
+<br>
+INSERT INTO
+<br>
+DROP 
+<br>
+SELECT
+<br>
+UPDATE 
+<br>
+DELETE 
+<br>
+ORDER BY
+<br>
+GROUP BY
+<br>
 
 
